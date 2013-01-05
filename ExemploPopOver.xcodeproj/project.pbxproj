@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A13C9AC16132B9D00ADAEDA /* VCMudaCor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A13C9AB16132B9D00ADAEDA /* VCMudaCor.m */; };
 		6A19C57D1611F90A00045A4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A19C57C1611F90A00045A4B /* UIKit.framework */; };
 		6A19C57F1611F90A00045A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A19C57E1611F90A00045A4B /* Foundation.framework */; };
 		6A19C5811611F90A00045A4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A19C5801611F90A00045A4B /* CoreGraphics.framework */; };
@@ -20,6 +21,8 @@
 		6A19C59D1611F90B00045A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A19C57E1611F90A00045A4B /* Foundation.framework */; };
 		6A19C5A51611F90B00045A4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A19C5A31611F90B00045A4B /* InfoPlist.strings */; };
 		6A19C5A81611F90B00045A4B /* ExemploPopOverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A19C5A71611F90B00045A4B /* ExemploPopOverTests.m */; };
+		6A19C5B31611FC1500045A4B /* VCImagem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A19C5B21611FC1500045A4B /* VCImagem.m */; };
+		6A19C5B91612012800045A4B /* Angelina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A19C5B81612012800045A4B /* Angelina.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A13C9AA16132B9D00ADAEDA /* VCMudaCor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCMudaCor.h; sourceTree = "<group>"; };
+		6A13C9AB16132B9D00ADAEDA /* VCMudaCor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMudaCor.m; sourceTree = "<group>"; };
 		6A19C5781611F90A00045A4B /* ExemploPopOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExemploPopOver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A19C57C1611F90A00045A4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A19C57E1611F90A00045A4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +57,9 @@
 		6A19C5A41611F90B00045A4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A19C5A61611F90B00045A4B /* ExemploPopOverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExemploPopOverTests.h; sourceTree = "<group>"; };
 		6A19C5A71611F90B00045A4B /* ExemploPopOverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExemploPopOverTests.m; sourceTree = "<group>"; };
+		6A19C5B11611FC1500045A4B /* VCImagem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImagem.h; sourceTree = "<group>"; };
+		6A19C5B21611FC1500045A4B /* VCImagem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImagem.m; sourceTree = "<group>"; };
+		6A19C5B81612012800045A4B /* Angelina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angelina.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		6A19C56D1611F90A00045A4B = {
 			isa = PBXGroup;
 			children = (
+				6A19C5B81612012800045A4B /* Angelina.jpg */,
 				6A19C5821611F90A00045A4B /* ExemploPopOver */,
 				6A19C5A01611F90B00045A4B /* ExemploPopOverTests */,
 				6A19C57B1611F90A00045A4B /* Frameworks */,
@@ -114,8 +123,12 @@
 				6A19C58B1611F90A00045A4B /* PrincipalAppDelegate.h */,
 				6A19C58C1611F90A00045A4B /* PrincipalAppDelegate.m */,
 				6A19C58E1611F90A00045A4B /* MainStoryboard.storyboard */,
+				6A19C5B11611FC1500045A4B /* VCImagem.h */,
+				6A19C5B21611FC1500045A4B /* VCImagem.m */,
 				6A19C5911611F90A00045A4B /* PrincipalViewController.h */,
 				6A19C5921611F90A00045A4B /* PrincipalViewController.m */,
+				6A13C9AA16132B9D00ADAEDA /* VCMudaCor.h */,
+				6A13C9AB16132B9D00ADAEDA /* VCMudaCor.m */,
 				6A19C5831611F90A00045A4B /* Supporting Files */,
 			);
 			path = ExemploPopOver;
@@ -225,6 +238,7 @@
 			files = (
 				6A19C5871611F90A00045A4B /* InfoPlist.strings in Resources */,
 				6A19C5901611F90A00045A4B /* MainStoryboard.storyboard in Resources */,
+				6A19C5B91612012800045A4B /* Angelina.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +276,8 @@
 				6A19C5891611F90A00045A4B /* main.m in Sources */,
 				6A19C58D1611F90A00045A4B /* PrincipalAppDelegate.m in Sources */,
 				6A19C5931611F90A00045A4B /* PrincipalViewController.m in Sources */,
+				6A19C5B31611FC1500045A4B /* VCImagem.m in Sources */,
+				6A13C9AC16132B9D00ADAEDA /* VCMudaCor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +453,7 @@
 				6A19C5AD1611F90B00045A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A19C5AE1611F90B00045A4B /* Build configuration list for PBXNativeTarget "ExemploPopOverTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +462,7 @@
 				6A19C5B01611F90B00045A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

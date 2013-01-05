@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VCImagem.h"
+#import "VCMudaCor.h"
 
-@interface PrincipalViewController : UIViewController
+@interface PrincipalViewController : UIViewController <VCMUCorDelegate,UIPopoverControllerDelegate,UIAlertViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+
+-(IBAction)mostrarPopOverImagem:(id)sender;
+-(IBAction)mostrarPopOverMudaCor:(id)sender;
+
+
 
 @end
